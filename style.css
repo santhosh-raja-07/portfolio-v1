@@ -15,9 +15,10 @@ body{
 .navbar{
     background-color: black;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     border-bottom: white  2px solid ;
-    padding: 20px;
+    padding: 30px ;
+
 }
 header{
     position: sticky;
@@ -55,7 +56,7 @@ header{
 }
 
 #Home {
-    scroll-margin-top: 160px;
+    scroll-margin-top: 210px;
 }
 
 /* about-page */
@@ -156,6 +157,7 @@ padding: 100px 0px 100px 200px ;
 }  
 .contact-data a{
     text-decoration: none;
+    color: white;
 }
 .contact-page{
     margin-bottom: 200px;
@@ -164,7 +166,7 @@ padding: 100px 0px 100px 200px ;
     color: #f9c713;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     .contact-data-img {
         padding-left: 100px;
     }
@@ -185,13 +187,15 @@ padding: 100px 0px 100px 200px ;
     padding: 50px;
     }
     .contact-data{
-        padding-right: 50px;
+        padding-right: 200px;
     }
     .container-5{
         font-size: 20px;
     }
     .contact-data-img {
-        padding-left: 50px;
+        padding-left: 100px;
+        display: flex;
+        flex-direction: column;
 }
 }
 @media screen and (max-width: 671px){
@@ -207,5 +211,14 @@ padding: 100px 0px 100px 200px ;
     }
     .container-1{
         line-height: 50px;
+    }
+    .contact-data{
+        padding-right: 30px;
+    }
+    .container-5{
+        font-size: 20px;
+    }
+    .contact-data-img {
+        padding-left: 30px;
     }
 }
