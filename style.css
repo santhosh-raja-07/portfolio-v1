@@ -165,14 +165,15 @@ h2:hover{
     grid-template-columns: 1fr 1fr;
     font-size: 30px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .contact-data-img {
-    padding-left: 400px;
+    padding-left: 500px;
     text-align: center;
     padding-top: 20px;
 }
 .contact-data{
-    padding-right: 400px;
+    padding-right: 300px;
     padding-top: 40px;
     line-height: 125px;
 }  
@@ -189,8 +190,18 @@ h2:hover{
 
 
 
-@media screen and (max-width: 780px){
+@media screen and (max-width: 1215px){
+    .contact-data{
+        padding-right: 200px;
+    }
+    .contact-data-img{
+        padding-left: 300px;
+    }
+}
 
+
+
+@media screen and (max-width: 1100px){
 .img {
     order: 1;
 }
@@ -216,18 +227,13 @@ h2:hover{
     line-height: 40px;
     padding-left: 50px;
 }
-.contact-data-img {
-    padding-left: 0px;
-}
 .container-5{
-     font-size: 10px;
-}
-.contact-data{
-    padding-right: 50px;
+     font-size: 20px;
 }
 .navbar a{
-    font-size: 15px;
+    font-size: 17px;
     padding-left: 0px;
+    padding: 5px;
 }
 .header h1{
     color: white;
@@ -239,18 +245,46 @@ h2:hover{
     padding: 10px;
 }
 .header{
-    border-bottom: white  1px solid ;
-    padding: 5px ;
+
+    padding: 20px ;
 }
+.contact-data-img {
+    padding-left: 300px;
 }
+.contact-data{
+    padding-right:250px;
+    padding-top: 40px;
+}  
+}
+
+
+
+@media screen and (max-width: 800px){
+    .contact-data{
+        padding-right: 150px;
+    }
+    .contact-data-img{
+        padding-left: 150px;
+    }
+}
+
+
+
+@media screen and (max-width: 600px){
+    .contact-data{
+        padding-right: 50px;
+    }
+    .contact-data-img{
+        padding-left: 50px;
+    }
+}
+
+
 
 @media screen and (max-width: 500px){
     .img img{
         height: auto;
-        width: 250px;
-    }
-    .contact-data , img{
-        padding-right: 0px;
+        width: 350px;
     }
     h2{
         padding: 5px 15px 5px 15px ;
@@ -263,13 +297,52 @@ h2:hover{
      }
     .container-3 img{
         width: 20px;
+        font-weight:bolder;
     }  
     .navbar a{
-        font-size: 10px;
+        font-size: 15px;
+        padding: 9px;
     } 
     .header h1{
-        color: white;
-        font-size: 5px;
-        padding-top: 10px;
+        display: none;
     } 
+    .header{
+        padding: 15px 0px 15px 0px ;
+    }
+    .container-2 p{
+        font-size: 20px;
+    }
+    .container-3 .img1, .img2, .img3, .img4{
+        padding-bottom: 15px;
+    }
+    .js-ps .java{
+        margin-top: 10px;
+    }
+    .container-5{
+        font-size: 10px;
+   }
+   .contact-data{
+       padding-right: 30px;
+   }
+   .contact-data-img{
+    padding-left: 35px;
+}
+
+
+
+}
+@media screen and (max-width: 350px){
+    .contact-data{
+        padding-right: 5px;
+    }
+    .contact-data-img{
+        padding-left: 20px;
+    }
+    .container-5{
+        font-size: 10px;
+   }
+   .img img{
+    height: auto;
+    width: 300px;
+   }
 }
