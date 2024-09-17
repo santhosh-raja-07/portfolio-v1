@@ -192,10 +192,18 @@ h2:hover{
 }
 
 
-
-@media screen and (max-width: 1215px){
+@media screen and (max-width: 1390px){
     .contact-data{
-        padding-right: 200px;
+        padding-right: 350px;
+    }
+    .contact-data-img{
+        padding-left: 300px;
+    }
+}
+
+@media screen and (max-width: 1290px){
+    .contact-data{
+        padding-right: 300px;
     }
     .contact-data-img{
         padding-left: 300px;
@@ -260,9 +268,26 @@ h2:hover{
 }  
 }
 
+@media screen and (max-width: 1024px){
+    .contact-data{
+        padding-right: 350px;
+    }
+    .contact-data-img{
+        padding-left: 150px;
+    }
+}
+
+@media screen and (max-width: 854px){
+    .contact-data{
+        padding-right: 140px;
+    }
+    .contact-data-img{
+        padding-left: 150px;
+    }
+}
 
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 820px){
     .contact-data{
         padding-right: 150px;
     }
@@ -334,7 +359,7 @@ h2:hover{
 
 
 }
-@media screen and (max-width: 350px){
+@media screen and (max-width: 370px){
     .contact-data{
         padding-right: 5px;
     }
