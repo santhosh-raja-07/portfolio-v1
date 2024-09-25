@@ -26,11 +26,9 @@ header{
     text-decoration: none;
     font-size: 25px;
     padding-left: 40px;
-    transition: all 0.5s;
 }
-.navbar :hover{
+.navbar a:hover{
     color: #f9c713;
-    padding: 20px;
 }
 .header{
     background-color: black;
@@ -128,7 +126,7 @@ h2:hover{
     scroll-margin-top: 250px;
 }
 
-/* portfoilo-page */
+/* project-page */
 .container-4 img{
     width: 300px;
      height: 400px;
@@ -268,6 +266,7 @@ h2:hover{
 }  
 }
 
+
 @media screen and (max-width: 1024px){
     .contact-data{
         padding-right: 350px;
@@ -355,7 +354,6 @@ h2:hover{
    .contact-data-img{
     padding-left: 35px;
 }
-
 
 
 }
