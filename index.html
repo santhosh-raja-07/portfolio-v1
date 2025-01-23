@@ -1,142 +1,332 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="assets/images/img_fav.jpeg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="shortcut icon" href="assets/images/img_santhosh.jpeg" type="image/x-icon">
 </head>
-
 <body>
-    <header>
-        <nav class="header">
-            <div>
-                <h1>SANTHOSH <span>RAJA</span></h1>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">PORTFOLIO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
             </div>
-            <div class="navbar">
-                <a href="#Home">Home</a>
-                <a href="#Aboutme">About me</a>
-                <a href="#Skills">Skills</a>
-                <a href="#project">My project </a>
-                <a href="#Contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 text-center">
+                    <h1 class="fw-bold">Santhosh Raja R</h1>
+                    <h2 class="mb-4">Web Developer</h2>
+                    <a href="#contact" class="btn btn-accent btn-lg">Get In Touch</a>
+                    <a href=" https://caseassist.netlify.app/" class="btn btn-accent btn-lg">Main Project</a>
+                </div>
             </div>
-        </nav>
-    </header>
-    <section class="home-page">
-        <div class="container-1">
-            <h1 class="hello">Hello!</h1>
-            <h1>I'm Santhosh Raja</h1>
-            <p>Web Developer</p>
         </div>
-
-        <div class="img">
-            <img src="assets/images/img.santhosh.jpeg" id="Home" alt="img" width="720px" height="450px">
-        </div>
-
     </section>
 
-    <main>
-
-        <section class="about-page">
-            <h2 id="Aboutme">ABOUT ME</h2>
-            <div class="container-2">
-                <p>I like learning different things and I have an enthusiasm to help others.<br> I'm
-                    dedicated to my career goal</p>
-                <div class="education">
-                    <p>EDUCATION:</p>
-                    <p>I have completed 12th (2022-2023)</p>
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 mt-5">About Me</h2>
+            <div class="row align-items-center">
+                <div class="col-md-5 mb-4 mb-md-0">
+                    <img src="/assets/images/img_santhosh.jpeg" alt="Profile" class="img-fluid rounded">
                 </div>
-                <div class="place">
-                    <p>WEB DEVELOPER: </p>
-                    <p>Freshworks sts software academy Perungudi, Chennai</p>
-                </div>
-            </div>
-        </section>
-
-
-        <section class="skills-page">
-            <h2 id="Skills">SKILLS</h2>
-            <div class="container-3">
-                <div class="html-css">
-                    <h1>HTML</h1>
-                    <div class="img1"><img src="assets/images/img_star.1.png" alt="star"><img
-                            src="assets/images/img_star.1.png" alt="star"><img src="assets/images/img_star.1.png"
-                            alt="star"><img src="assets/images/img_star.1.png" alt="star"><img
-                            src="assets/images/img_star.1.png" alt="star"></div>
-                    <h1>CSS</h1>
-                    <div class="img2"><img src="assets/images/img_star.1.png" alt="star"><img
-                            src="assets/images/img_star.1.png" alt="star"><img src="assets/images/img_star.1.png"
-                            alt="star"><img src="assets/images/img_star.1.png" alt="star"><img
-                            src="assets/images/img_star.2.png" alt="star"></div>
-                </div>
-                <div class="js-ps">
-                    <h1 class="java">JAVA SCRIPT</h1>
-                    <div class="img3"><img src="assets/images/img_star.1.png" alt="star"><img
-                            src="assets/images/img_star.1.png" alt="star"><img src="assets/images/img_star.2.png"
-                            alt="star"><img src="assets/images/img_star.2.png" alt="star"><img
-                            src="assets/images/img_star.2.png" alt="star"></div>
-                    <h1>PROBLEM SOLVING</h1>
-                    <div class="img4"><img src="assets/images/img_star.1.png" alt="star"><img
-                            src="assets/images/img_star.1.png" alt="star"><img src="assets/images/img_star.1.png"
-                            alt="star"><img src="assets/images/img_star.1.png" alt="star"><img
-                            src="assets/images/img_star.2.png" alt="star"></div>
+                <div class="col-md-6">
+                    <h4>I enjoy learning new things and using my skills to help others. I’m passionate about improving myself and working towards my career goals with dedication and focus.</h4>
+                        <h5> <strong>EDUCATION :</strong>  I have completed 12th (2022-2023)</h5>
+                    <h5> <strong>WEB DEVELOPER :</strong>  Freshworks sts software academy Perungudi, Chennai</h5>
+                    <a href="#skills" class="btn btn-accent mt-3">View My Skills</a>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-
-        <section class="project-page">
-            <h2 id="project">MY PROJECT</h2>
-            <div class="container-4">
-                <div class="project-box">
-                    <a href="https://santhosh-raja-07.github.io/mini-project-1/"><img
-                            src="assets/images/img_project1.jpeg" alt="project1"></a>
-                    <h3>PROJECT-1</h3>
+    <!-- Updated Skills Section -->
+    <section id="skills" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 mt-5">My Skills</h2>
+            
+            <!-- Language Skills -->
+            <div class="row mb-5">
+                <h3 class="mb-4">English</h3>
+                <div class="col-md-3 col-sm-6">
+                    <div class="skill-card">
+                        <h4>Listening</h4>
+                        <div class="skill-stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                    </div>
                 </div>
-                <div class="project-box">
-                    <a href="https://santhosh-raja-07.github.io/mini-project-2/"><img
-                            src="assets/images/img_project2.jpeg" alt="project2"></a>
-                    <h3>PROJECT-2</h3>
+                <div class="col-md-3 col-sm-6">
+                    <div class="skill-card">
+                        <h4>Speaking</h4>
+                        <div class="skill-stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                    </div>
                 </div>
-                <div class="project-box">
-                    <a href=" https://santhosh-raja-07.github.io/mini-project-3/"><img
-                            src="assets/images/img_project3.jpeg" alt="project3"></a>
-                    <h3>PROJECT-3</h3>
+                <div class="col-md-3 col-sm-6">
+                    <div class="skill-card">
+                        <h4>Reading</h4>
+                        <div class="skill-stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="skill-card">
+                        <h4>Writing</h4>
+                        <div class="skill-stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section>
 
-    </main>
-
-    <footer>
-
-
-        <section class="contact-page">
-            <h2 id="Contact">CONTACT ME</h2>
-            <div class="container-5">
-
-                <div class="contact-data-img">
-
-                    <img src="assets/images/ic_linkedin.png" alt="linkedin icon" width="150px" height="150px">
-                    <img src="assets/images/ic_mail.png" alt="mail icon" width="95px" height="100px"></li>
-                    <img src="assets/images/ic_insta.png" alt="insta icon" width="120px" height="120px "></li>
-
+            <!-- Soft Skills -->
+            <div class="row mb-5">
+                <h3 class="mb-4">Life Skills</h3>
+                <div class="col-md-3 col-sm-6">
+                    <div class="skill-card">
+                        <h4>Social Skills</h4>
+                        <div class="skill-stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                    </div>
                 </div>
-                <div class="contact-data">
-                    <a href="https://www.linkedin.com/in/santhosh-raja-7b32842a5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                        title="LINKEDIN">Santhosh Raja</a>
-                    <a href="mailto:santhosh.ramesh@fssa.freshworks.com"
-                        title="MAIL">santhosh.ramesh@fssa.freshworks.com</a>
-                    <a href="https://www.instagram.com/santhoshhhh_03?igsh=MWh1aXhoempqYW9nMg=="
-                        title="INSTAGRAM">santhoshhhh_03</a>
+                <div class="col-md-3 col-sm-6">
+                    <div class="skill-card">
+                        <h4>Self Awareness</h4>
+                        <div class="skill-stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="skill-card">
+                        <h4>Adaptability</h4>
+                        <div class="skill-stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section>
 
+            <!-- Technical Skills -->
+            <div class="row">
+                <h3 class="mb-4">Technical Skills</h3>
+                <div class="col-md-3 col-sm-6">
+                    <div class="skill-card">
+                        <h4>HTML</h4>
+                        <div class="skill-stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="skill-card">
+                        <h4>CSS</h4>
+                        <div class="skill-stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="skill-card">
+                        <h4>JavaScript</h4>
+                        <div class="skill-stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="skill-card">
+                        <h4>SQL</h4>
+                        <div class="skill-stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="skill-card">
+                        <h4>Python</h4>
+                        <div class="skill-stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="skill-card">
+                        <h4>Problem Solving</h4>
+                        <div class="skill-stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 mt-5">My Projects</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="/assets/images/img_project3.jpeg" class="card-img-top" alt="Project 1">
+                        <div class="card-body py-5 pt-5">
+                            <h5 class="card-title">Project 01</h5>
+                            <p class="card-text">My first static website built with HTML and CSS</p>
+                            <a href="https://santhosh-raja-07.github.io/mini-project-3/" class="btn btn-accent">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="/assets/images/img_project1.jpeg" class="card-img-top" alt="Project 2">
+                        <div class="card-body  py-5 pt-5">
+                            <h5 class="card-title">Project 02</h5>
+                            <p class="card-text">My second static website built with HTML and CSS</p>
+                            <a href="https://santhosh-raja-07.github.io/mini-project-1/" class="btn btn-accent">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="/assets/images/main_project.jpg" class="card-img-top" alt="Project 3">
+                        <div class="card-body py-5 pt-5">
+                            <h5 class="card-title">Project 03</h5>
+                            <p class="card-text">This is a website called CaseAssist it is a lawyer consultancy website built with HTML, CSS and JS </p>
+                            <a href="https://caseassist.netlify.app/" class="btn btn-accent">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Get In Touch</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <div class="contact-links">
+                        <a href="mailto:santhosh.ramesh@fssa.freshworks.com" class="contact-item">
+                            <i class="bi bi-envelope-fill"></i>
+                            <span>santhosh.ramesh@fssa.freshworks.com</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/santhosh-raja-7b32842a5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="contact-item">
+                            <i class="bi bi-linkedin"></i>
+                            <span>Santhosh Raja</span>
+                        </a>
+                        <a href="https://github.com/dashboard" target="_blank" class="contact-item">
+                            <i class="bi bi-github"></i>
+                            <span>santhosh-raja-07</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 text-center">
+        <div class="container">
+            <div class="social-links mb-4">
+                <a href="https://www.linkedin.com/in/santhosh-raja-7b32842a5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="mx-2"><i class="bi bi-linkedin"></i></a>
+                <a href="https://github.com/dashboard" class="mx-2"><i class="bi bi-github"></i></a>
+                <a href="mailto:santhosh.ramesh@fssa.freshworks.com" class="mx-2"><i class="bi bi-envelope-fill"></i></a>
+            </div>
+            <p class="mb-0">© 2024 Santhosh. All rights reserved.</p>
+        </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
