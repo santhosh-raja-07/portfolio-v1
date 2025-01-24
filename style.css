@@ -62,7 +62,9 @@ body {
     font-size: 2rem;
     color: var(--accent-color);
 }
-
+.rounded{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+}
 /* Buttons */
 .btn-accent {
     background-color: var(--accent-color);
